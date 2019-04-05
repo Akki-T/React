@@ -1,0 +1,56 @@
+Set up:
+_____________
+
+1.install npm
+2. install node
+3. install visual studio code
+4. Open integrated terminal in visual studio using go->integrated terminal or ctrl+`
+5. check node and npm versions
+node --version
+npm --version
+(check your environment variables if above commands are not working)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+verify if node js is running properly:
+1. create a test js file eg:test.js
+2. paste below code in it
+console.log('Node is installed!');
+3. open cmd and move to location where file is saved and execute file using
+node filename.js (eg: node test.js)
+4. Output will be Node is installed!
+
+Install and Create react application:
+
+1.npm install -g create-react-app
+2. Check version:
+create-react-app --version
+(check your environment variables if above commands are not working give path to npm)
+3. create app
+You can use create-react-app by passing the name of your application:
+
+create-react-app my-app
+
+Success! Created my-app at E:\project_location\my-app
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+4. After creating app . move to location where app is created ( cd: my-app)
+5.Run the app using:
+yarn start or npm start
+6. View ouptut in http://localhost:3000/ after complied and started
+
+
+Make changes to src/app.js to get diff output.
+
+note: use ctrl +c to stop the development server.
